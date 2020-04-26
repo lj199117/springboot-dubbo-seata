@@ -1,6 +1,6 @@
-# SpringBoot + Dubbo + Mybatis + Nacos + Seata
+# SpringBoot + Dubbo + Mybatis + zk + Seata
 
-Integration SpringBoot + Dubbo + Mybatis + Nacos + Seata
+Integration SpringBoot + Dubbo + Mybatis + zk + Seata
 
 
 ### 1. clone the code 
@@ -32,12 +32,11 @@ then you will see ：
 +-------------------------+
 ```
 
-<!-- ### 3. start Nacos（使用1.1.0版本，防止因为dubbo，nacos因版本不匹配出现的心跳请求出错的情况。 v1.1.0地址：https://github.com/alibaba/nacos/releases/tag/1.1.0）
+### 3. start Nacos（使用1.1.0版本，防止因为dubbo，nacos因版本不匹配出现的心跳请求出错的情况。 v1.1.0地址：https://github.com/alibaba/nacos/releases/tag/1.1.0）
 
 Nacos quickstart：https://nacos.io/en-us/docs/quick-start.html
 
-enter the  Nacos webconsole：http://127.0.0.1:8848/nacos/index.html -->
-### 3. 使用zk作为服务注册中心
+enter the  Nacos webconsole：http://127.0.0.1:8848/nacos/index.html
    
 ### 4. start Seata Server
   
